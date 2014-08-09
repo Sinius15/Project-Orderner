@@ -42,15 +42,4 @@ public class Util {
 		return tot/in.length;
 	}
 	
-	public static int[] randomIntArr(int length){
-		int[] out = new int[length];
-        for(int i = 0; i<length; i++)
-               out[i] = randomNumber(0, length);
-        return out;
-	}
-	
-	public static int randomNumber(int min, int max){
-		return min + (int)(Math.random() * ((max - min) + 1));
-	}
-	
 }
